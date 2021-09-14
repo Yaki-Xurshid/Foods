@@ -1,6 +1,7 @@
 import React from "react";
 import SectionWrapper from "./SectionWrapper";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Menyu from "../Menyu";
 
 const Section = () => {
   return (
@@ -79,17 +80,7 @@ const Section = () => {
           <button className="book">Read More</button>
         </div>
       </div>
-      <div className="row  sectionabout">
-        <p className="text3">Menu</p>
-        <p className="text4">Food Full of treaty Love</p>
-
-        <p className="text6  text9">
-          There are many things are needed to start the Fast Food Business. You
-          need not only Just Food Stalls with Persons but also specialized
-          equipment, Skills to manage Customers,
-        </p>
-        <h1>cardlar yoziladi menyu</h1>
-      </div>
+      <Menyu />
       <div className="row sectionabout">
         <div className="col-sm-6 m-5">
           <div className="away">
