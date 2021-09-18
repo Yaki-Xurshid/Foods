@@ -2,6 +2,8 @@ import React from "react";
 import SectionWrapper from "./SectionWrapper";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Menyu from "../Menyu";
+import Swipers from "../Swiper";
+import Contact from "../Contact";
 
 const Section = () => {
   return (
@@ -125,10 +127,9 @@ const Section = () => {
             etc to make your.
           </p>
         </div>
-        <div>
-          <h1>swiper</h1>
-        </div>
       </div>
+      <Swipers />
+      <Contact />
     </SectionWrapper>
   );
 };
